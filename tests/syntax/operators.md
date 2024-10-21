@@ -12,7 +12,7 @@ Les accolades `{}` servent de délimiteurs polyvalents dans Enzyme. Voici les pr
 ## Examples
 
 ### EXAMPLE - REACTION
-Les accolades délimitent le corps d'une ***réaction***.
+Les accolades délimitent le corps d'une ***reaction***.
 ```enzyme
 async reaction: name() {
     // Corps de la reaction (function)
@@ -20,10 +20,10 @@ async reaction: name() {
 ```
 
 ### EXAMPLE - ARGUMENTS
-Les accolades délimitent les arguments passés à une reaction.
+Les accolades délimitent les arguments passés à une ***reaction***.
 ```enzyme
 async reaction: name({ argument1: Type, argument2: Type }) {
-    // Corps de la fonction
+    // Corps de la reaction (function)
 }
 ```
 
