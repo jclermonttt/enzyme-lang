@@ -36,11 +36,21 @@ alkaloid: Name {
 ```
 
 ### EXAMPLE - EXPRESSIONS EN BLOCS
-Les accolades délimitent les champs d'un alkaloid.
+Les accolades délimitent les expressions de blocs
 ```enzyme
-raw result = {
+result = {
     let a = 1;
     let b = 2;
     a + b // La valeur de l'expression est retournée
 };
+```
+
+### EXAMPLE - CONDITIONS 
+Les accolades délimitent le corps des conditions.
+```enzyme
+if (condition) {
+    // Code à exécuter si la condition est vraie
+} else {
+    // Code à exécuter si la condition est fausse
+}
 ```
