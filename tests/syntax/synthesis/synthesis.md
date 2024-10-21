@@ -1,4 +1,4 @@
 # Enzyme - Synthesis
 
 
-### [EXAMPLE]
+### [`EXAMPLE`]
