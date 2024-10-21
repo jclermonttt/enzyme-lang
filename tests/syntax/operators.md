@@ -31,7 +31,7 @@ async reaction: name({ argument1: Type, argument2: Type }) {
 Les accolades délimitent les champs d'un alkaloid.
 ```enzyme
 alkaloid: Name {
-
+    // Champs de l'alkaloid
 }
 ```
 
